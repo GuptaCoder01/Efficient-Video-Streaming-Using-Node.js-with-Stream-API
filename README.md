@@ -92,12 +92,11 @@ Given that your video element is an empty folder, you’ll need to generate an H
 
 Writing the /video endpoint
 
-const express = require("express");
-const app = express();
-const fs = require("fs");
-
-app.get("/", function (req, res) {
-    res.sendFile(__dirname + "/index.html");
+const express = require("express");.
+const app = express();.
+const fs = require("fs");. 
+app.get("/", function (req, res) { .
+    res.sendFile(__dirname + "/index.html");.
 });
 
 app.get("/video", function (req, res) {
